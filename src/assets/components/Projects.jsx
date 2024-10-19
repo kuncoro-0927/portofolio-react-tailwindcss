@@ -18,7 +18,7 @@ function Projects() {
             <div className="flex flex-col justify-center">
               <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
                 <div className="w-full md:w-1/3 bg-white grid place-items-center">
-                  <img src="/src/images/Free_MacBook_Pro_1.png" alt="tailwind logo" className="rounded-xl" />
+                  <img src="/portofolio-react-tailwindcss/images/Free_MacBook_Pro_1.png" alt="tailwind logo" className="rounded-xl" />
                 </div>
                 <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
                   <div className="flex justify-start md:justify-end gap-2 flex-wrap">
@@ -60,7 +60,7 @@ function Projects() {
             <div className="flex flex-col justify-center">
               <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
                 <div className="w-full md:w-1/3 bg-white grid place-items-center">
-                  <img src="/src/images/project 1.JPG" alt="tailwind logo" className="rounded-xl" />
+                <img src="/portofolio-react-tailwindcss/images/project.JPG" alt="tailwind logo" className="rounded-xl" />
                 </div>
                 <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
                   <div className="flex justify-start md:justify-end gap-2 flex-wrap">
@@ -76,7 +76,7 @@ function Projects() {
                   </div>
   
                   <h3 className="font-black text-gray-800 md:text-3xl text-xl">
-                    iTern Website - Company Profile
+                    E-Notulensi
                   </h3>
                   <p className="md:text-lg text-gray-500 text-base">
                   Project Based Learning Group creates a Minutes Archiving website for the faculty, here I play the role of a backend developer. It feels good to be able to work with the team and also improve skills such as communication, cooperation, problem-solving and others.
@@ -102,7 +102,7 @@ function Projects() {
             <div className="flex flex-col justify-center">
               <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
                 <div className="w-full md:w-1/3 bg-white grid place-items-center">
-                  <img src="/src/images/porto.svg" alt="tailwind logo" className="rounded-xl" />
+                  <img src="/portofolio-react-tailwindcss/images/porto.svg" alt="tailwind logo" className="rounded-xl" />
                 </div>
                 <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
                   <div className="flex justify-start md:justify-end gap-2 flex-wrap">
@@ -126,8 +126,7 @@ function Projects() {
                          <span className="ml-2">Live Site</span>
                         </a>
 
-
-                  <a href="#" className="group flex items-center w-24  py-2 justify-center bg-gray-200 rounded-md text-xs font-medium text-gray-800 hover:bg-hitam hover:text-background duration-300">
+                  <a href="https://github.com/kuncoro-0927/portofolio-react-tailwindcss" className="group flex items-center w-24  py-2 justify-center bg-gray-200 rounded-md text-xs font-medium text-gray-800 hover:bg-hitam hover:text-background duration-300">
                         <FontAwesomeIcon icon={faGithub} className="text-hitam text-sm group-hover:text-background duration-300" />
                         <span className="ml-2 text-sm">Github</span>
                     </a>
@@ -141,7 +140,7 @@ function Projects() {
             <div className="flex flex-col justify-center">
               <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
                 <div className="w-full md:w-1/3 bg-white grid place-items-center">
-                  <img src="/src/images/uiux.png" alt="tailwind logo" className="rounded-xl" />
+                  <img src="/portofolio-react-tailwindcss/images/uiux.png" alt="tailwind logo" className="rounded-xl" />
                 </div>
                 <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
                   <div className="flex justify-start md:justify-end gap-2 flex-wrap">

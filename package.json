@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kuncoro-0927.github.io/portofolio-react-tailwindcss",
   "name": "portofolio-react",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -19,12 +22,16 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/material": "^5.16.7",
     "@theme-toggles/react": "^4.1.0",
+    "email-validator": "^2.0.4",
     "html-react-parser": "^5.1.12",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-fast-marquee": "^1.6.5",
-    "react-scroll": "^1.9.0"
+    "react-scroll": "^1.9.0",
+    "styled-components": "^6.1.13",
+    "sweetalert2": "^11.14.3",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

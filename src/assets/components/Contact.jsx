@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import { TextField, Button } from "@mui/material";
 import Swal from "sweetalert2";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -14,6 +17,13 @@ const Contact = () => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return emailRegex.test(email);
   };
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once: false,
+    });
+  }, []);
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -74,6 +84,7 @@ const Contact = () => {
   return (
     <form onSubmit={onSubmit} className="md:max-w-xl">
       <TextField
+        data-aos="fade-up"
         fullWidth
         label="Name"
         variant="standard"
@@ -126,6 +137,7 @@ const Contact = () => {
       />
 
       <TextField
+        data-aos="fade-up"
         fullWidth
         label="Email"
         variant="standard"
@@ -181,6 +193,7 @@ const Contact = () => {
       />
 
       <TextField
+        data-aos="fade-up"
         fullWidth
         label="Message"
         variant="standard"
@@ -235,14 +248,26 @@ const Contact = () => {
       />
 
       <Button
+        data-aos="fade-up"
         type="submit"
         variant="contained"
-        color="primary"
         sx={{
           mt: 3,
-          fontSize: { xs: "12px", md: "13px" }, // Ukuran font dalam px
-          padding: { xs: "8px 16px", md: "8px 16px" }, // Padding responsif
+          fontSize: { xs: "12px", md: "13px" },
+          padding: { xs: "8px 16px", md: "8px 16px" },
+          backgroundColor: "#22282C", // Default green for light mode
+          color: "white", // Text color
+          "&:hover": {
+            backgroundColor: "#020617", // Darker green on hover for light mode
+          },
+          "&.dark": {
+            backgroundColor: "red", // Red for dark mode
+            "&:hover": {
+              backgroundColor: "darkred", // Darker red on hover for dark mode
+            },
+          },
         }}
+        className="dark:bg-gray-100 dark:text-hitam dark:hover:bg-gray-200" // Optional Tailwind classes for dark mode
       >
         Submit
       </Button>

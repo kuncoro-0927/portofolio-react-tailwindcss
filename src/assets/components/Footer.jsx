@@ -40,36 +40,33 @@ function Footer() {
           <p className="text-sm sm:text-xl md:text-xl lg:text-2xl dark:text-background">
             Malang
           </p>
-        </div>
 
-        <div
-          className="mx-10 mt-5 md:mx-20 sm:mt-16 md:mt-16 space-x-3 md:space-x-5"
-          data-aos="fade-up"
-        >
-          <a href="https://www.linkedin.com/in/khitan-hesthi-kuncoro">
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
-            />
-          </a>
-          <a href="https://github.com/kuncoro-0927">
-            <FontAwesomeIcon
-              icon={faSquareGithub}
-              href="https://github.com/kuncoro-0927"
-              className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
-            />
-          </a>
-          <a href="https://www.instagram.com/khitannn?igsh=ZnNzZTg3cm44Mmcy&utm_source=qrs">
-            <FontAwesomeIcon
-              icon={faInstagramSquare}
-              className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
-            />
-          </a>
-        </div>
-        <div className="mx-10 md:mx-20 md:mb-14" data-aos="fade-up">
-          <p className="text-sm sm:text-xl md:text-md lg:text-md mt-4 text-kuning">
-            © 2024 - Designed & Developed by Khitan
-          </p>
+          <div className="mt-5 sm:mt-16 md:mt-16 space-x-3 md:space-x-5">
+            <a href="https://www.linkedin.com/in/khitan-hesthi-kuncoro">
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
+              />
+            </a>
+            <a href="https://github.com/kuncoro-0927">
+              <FontAwesomeIcon
+                icon={faSquareGithub}
+                href="https://github.com/kuncoro-0927"
+                className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
+              />
+            </a>
+            <a href="https://www.instagram.com/khitannn?igsh=ZnNzZTg3cm44Mmcy&utm_source=qrs">
+              <FontAwesomeIcon
+                icon={faInstagramSquare}
+                className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
+              />
+            </a>
+          </div>
+          <div className="">
+            <p className="text-sm sm:text-xl md:text-md lg:text-md mt-4 text-kuning">
+              © 2024 - Designed & Developed by Khitan
+            </p>
+          </div>
         </div>
       </section>
     </>

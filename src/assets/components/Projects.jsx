@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -26,6 +27,87 @@ function Projects() {
 
       <div className="flex justify-center">
         <div className="grid grid-cols-1 gap-4">
+          {/* Project 3 */}
+          <div className="flex flex-col justify-center" data-aos="fade-up">
+            <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
+              <div className="w-full md:w-1/3 bg-white grid place-items-center">
+                <img
+                  src="/portofolio-react-tailwindcss/images/mockup-cultivo-home.png"
+                  alt="tailwind logo"
+                  className="rounded-xl"
+                />
+              </div>
+              <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                <div className="flex justify-start md:justify-end gap-2 flex-wrap">
+                  <div className="inline-block bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 hover:bg-hitam hover:text-background duration-300">
+                    React Js
+                  </div>
+                  <div className="inline-block bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800  hover:bg-hitam hover:text-background duration-300">
+                    Express Js
+                  </div>
+                  <div className="inline-block bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800  hover:bg-hitam hover:text-background duration-300">
+                    Mysql
+                  </div>
+                  <div className="inline-block bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800  hover:bg-hitam hover:text-background duration-300">
+                    Tailwind
+                  </div>
+                  <div className="inline-block bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800  hover:bg-hitam hover:text-background duration-300">
+                    Material UI
+                  </div>
+                  <div className="inline-block bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800  hover:bg-hitam hover:text-background duration-300">
+                    Midtrans
+                  </div>
+                </div>
+
+                <h3 className="font-black text-gray-800 md:text-3xl text-xl">
+                  Cultivo
+                </h3>
+                <p className="md:text-lg text-gray-500 text-base">
+                  I am happy to be able to complete a massive project from my
+                  internship place, infinite learning. Almost 4 months have
+                  passed but it feels like I just joined yesterday. During these
+                  4 months I have created a website called cultivo using
+                  express, react js and mysql as a database. So, what is
+                  cultivo? Cultivo is an adventure ticket booking platform that
+                  offers consumers the convenience of exploring, booking, and
+                  enjoying various tourism products.
+                </p>
+                <div className="flex space-x-3">
+                  <a
+                    href="#"
+                    className="group flex items-center w-24 py-2 justify-center bg-hitam hover:bg-slate-950 rounded-md text-xs font-medium text-background"
+                  >
+                    <FontAwesomeIcon
+                      icon={faUpRightFromSquare}
+                      className="text-background text-xs"
+                    />
+                    <span className="ml-2">Live Site</span>
+                  </a>
+
+                  <a
+                    href="https://github.com/kuncoro-0927/portofolio-react-tailwindcss"
+                    className="group flex items-center w-24  py-2 justify-center bg-gray-200 rounded-md text-xs font-medium text-gray-800 hover:bg-hitam hover:text-background duration-300"
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      className="text-hitam text-sm group-hover:text-background duration-300"
+                    />
+                    <span className="ml-2 text-sm">Github</span>
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1vHS4Vojtb6otbtJFhIod-HZgB6_8Nvsq/view?usp=sharing"
+                    className="group flex items-center w-24  py-2 justify-center bg-gray-200 rounded-md text-xs font-medium text-gray-800 hover:bg-hitam hover:text-background duration-300"
+                  >
+                    <FontAwesomeIcon
+                      icon={faCircleInfo}
+                      className="text-hitam text-sm group-hover:text-background duration-300"
+                    />
+                    <span className="ml-2 text-sm">More</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* PROJECT 1 */}
           <div className="flex flex-col justify-center" data-aos="fade-up">
             <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">

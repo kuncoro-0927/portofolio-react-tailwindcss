@@ -74,7 +74,7 @@ function Projects() {
                 </p>
                 <div className="flex space-x-3">
                   <a
-                    href="#"
+                    href="https://cultivo.infinitelearningproject.com"
                     className="group flex items-center w-24 py-2 justify-center bg-hitam hover:bg-slate-950 rounded-md text-xs font-medium text-background"
                   >
                     <FontAwesomeIcon
@@ -85,7 +85,7 @@ function Projects() {
                   </a>
 
                   <a
-                    href="https://github.com/kuncoro-0927/portofolio-react-tailwindcss"
+                    href="https://github.com/kuncoro-0927/frontend-cultivo-project"
                     className="group flex items-center w-24  py-2 justify-center bg-gray-200 rounded-md text-xs font-medium text-gray-800 hover:bg-hitam hover:text-background duration-300"
                   >
                     <FontAwesomeIcon

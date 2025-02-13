@@ -55,7 +55,7 @@ function Footer() {
                 className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
               />
             </a>
-            <a href="https://www.instagram.com/khitannn?igsh=ZnNzZTg3cm44Mmcy&utm_source=qrs">
+            <a href="https://www.instagram.com/itandevv?igsh=MWM0ZHdheWV0Nmc0bw%3D%3D&utm_source=qr">
               <FontAwesomeIcon
                 icon={faInstagramSquare}
                 className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"

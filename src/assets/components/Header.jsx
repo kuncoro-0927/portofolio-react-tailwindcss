@@ -38,7 +38,7 @@ const Header = () => {
               className="text-xl mt-3 sm:text-4xl text-kuning font-semibold md:text-2xl lg:text-4xl"
               data-aos="fade-right"
             >
-              Frontend Developer
+              Fullstack Developer
             </p>
             <p
               className="text-xl sm:text-4xl text-hitam mt-3 font-semibold md:text-2xl dark:text-background"
@@ -65,7 +65,7 @@ const Header = () => {
                   className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
                 />
               </a>
-              <a href="https://www.instagram.com/khitannn?igsh=ZnNzZTg3cm44Mmcy&utm_source=qrs">
+              <a href="https://www.instagram.com/itandevv?igsh=MWM0ZHdheWV0Nmc0bw%3D%3D&utm_source=qr">
                 <FontAwesomeIcon
                   icon={faInstagramSquare}
                   className="text-hitam text-2xl hover:text-kuning transition-colors duration-300 sm:text-4xl md:text-5xl dark:text-background dark:hover:text-kuning"
@@ -79,9 +79,9 @@ const Header = () => {
             data-aos="fade-left"
           >
             <img
-              src="/portofolio-react-tailwindcss/images/profile2.png"
+              src="/portofolio-react-tailwindcss/images/kuncoro2.jpg"
               alt="Profile"
-              className=""
+              className="rounded-full h-96 w-96 object-cover bg-center"
             />
           </div>
         </div>

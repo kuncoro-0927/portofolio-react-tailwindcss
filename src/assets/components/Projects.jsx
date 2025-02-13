@@ -32,7 +32,7 @@ function Projects() {
             <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
               <div className="w-full md:w-1/3 bg-white grid place-items-center">
                 <img
-                  src="/portofolio-react-tailwindcss/images/mockup-cultivo-home.png"
+                  src="/images/mockup-cultivo-home.png"
                   alt="tailwind logo"
                   className="rounded-xl"
                 />
@@ -113,7 +113,7 @@ function Projects() {
             <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
               <div className="w-full md:w-1/3 bg-white grid place-items-center">
                 <img
-                  src="/portofolio-react-tailwindcss/images/Free_MacBook_Pro_1.png"
+                  src="/images/Free_MacBook_Pro_1.png"
                   alt="tailwind logo"
                   className="rounded-xl"
                 />
@@ -176,7 +176,7 @@ function Projects() {
             <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
               <div className="w-full md:w-1/3 bg-white grid place-items-center">
                 <img
-                  src="/portofolio-react-tailwindcss/images/project.JPG"
+                  src="/images/project.JPG"
                   alt="tailwind logo"
                   className="rounded-xl"
                 />
@@ -236,7 +236,7 @@ function Projects() {
             <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
               <div className="w-full md:w-1/3 bg-white grid place-items-center">
                 <img
-                  src="/portofolio-react-tailwindcss/images/porto.svg"
+                  src="/images/porto.svg"
                   alt="tailwind logo"
                   className="rounded-xl"
                 />
@@ -291,7 +291,7 @@ function Projects() {
             <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl lg:max-w-5xl mx-auto border border-white bg-white">
               <div className="w-full md:w-1/3 bg-white grid place-items-center">
                 <img
-                  src="/portofolio-react-tailwindcss/images/uiux.png"
+                  src="/images/uiux.png"
                   alt="tailwind logo"
                   className="rounded-xl"
                 />

@@ -79,7 +79,7 @@ const Header = () => {
             data-aos="fade-left"
           >
             <img
-              src="/portofolio-react-tailwindcss/images/kuncoro2.jpg"
+              src="/images/kuncoro2.jpg"
               alt="Profile"
               className="rounded-full h-96 w-96 object-cover bg-center"
             />

@@ -232,6 +232,7 @@ export const imgList = [
     img: (
       //Express
       <svg
+        className="w-10 h-10 md:w-24 md:h-24 filter grayscale hover:grayscale-0 transition ease-in-out duration-300"
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"

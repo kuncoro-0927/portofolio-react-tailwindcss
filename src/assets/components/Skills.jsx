@@ -268,6 +268,7 @@ function Skills() {
         data-aos="fade-up"
       >
         <svg
+          className="w-6 h-6 md:w-16 md:h-16"
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"

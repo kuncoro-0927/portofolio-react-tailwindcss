@@ -81,7 +81,7 @@ const Header = () => {
             <img
               src="/images/kuncoro2.jpg"
               alt="Profile"
-              className="rounded-full h-96 w-96 object-cover bg-center"
+              className="rounded-full md:h-96 md:w-96 object-cover bg-center"
             />
           </div>
         </div>
